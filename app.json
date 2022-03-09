@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo1/demo1"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "尉工最爱小程序",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "home",
+      "iconPath": "icon/HOME.png",
+      "selectedIconPath": "icon/HOME.png"
+    },
+    {
+      "pagePath": "pages/demo1/demo1",
+      "text": "demo1",
+      "iconPath": "icon/HOME.png",
+      "selectedIconPath": "icon/HOME.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}

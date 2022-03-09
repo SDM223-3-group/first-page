@@ -1,0 +1,5 @@
+<!---->
+<text>pages/demo1/demo1.wxml</text>
+<view >
+<view wx:if="{{true}}">shuai</view>
+</view>
